@@ -1,6 +1,6 @@
 node {
 
-  stage 'building' {
+  stage('building'){
     echo 'ok'
   }
 }
