@@ -2,7 +2,7 @@ properties([parameters([string(defaultValue: 'plop', description: '', name: 'par
 node {
 
   stage('building'){
-    echo 'ok'
+    echo "param = ${params.param}"
     echo 'ok2'
   }
 }
